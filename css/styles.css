@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Arapey|Archivo+Black|Elsie+Swash+Caps|Playfair+Display|Anton|Rubik|Teko:600|Sacramento|Abril+Fatface|Cormorant+Garamond|Neucha|Unica+One|Old+Standard+TT');
 html{
-    background-color: #c0c0c0;
-    background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 35%, rgba(0,212,255,1) 100%);
-    font-family: "DM Sans", sans-serif;
+    background-color: #5141d6;
+    color: #f0f0f0;
+    font-family: 'Roboto Condensed', Avenir, sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
@@ -18,6 +17,19 @@ body{
     font-size: 0.6rem;
 }
 h1{
+    font-family: 'Roboto Condensed', Avenir, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
     margin: 0;
     padding: 0;
+}
+.brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 5vw;
+  font-weight: 400;
+  margin: 0;
+  color: #1e156d;
+}
+.ampersand {
+  color: #8578f5;
 }
