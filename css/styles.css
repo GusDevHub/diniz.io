@@ -25,10 +25,15 @@ h1{
 }
 .brand {
   font-family: 'Playfair Display', serif;
-  font-size: 5vw;
+  font-size: calc(100dvw / 15);
   font-weight: 400;
   margin: 0;
   color: #1e156d;
+}
+@media (max-width: 990px){
+    .brand{
+        font-size: calc(100dvw / 2.5);
+    }
 }
 .ampersand {
   color: #8578f5;
