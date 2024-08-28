@@ -35053,7 +35053,9 @@ html{
     text-align: center;
 }
 body{
+    background-color: #5141d6;
     display: flex;
+    color: #f0f0f0;
     justify-content: center;
     align-items: center;
     height: 90dvh;
