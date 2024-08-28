@@ -35042,3 +35042,43 @@ blockquote.video-wrapper .video-content.icon-top:before {
     display: none;
   }
 }
+html{
+    background-color: #5141d6;
+    color: #f0f0f0;
+    font-family: 'Roboto Condensed', Avenir, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14pt;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90dvh;
+    font-size: 0.6rem;
+}
+h1{
+    font-family: 'Roboto Condensed', Avenir, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    z-index:2;
+}
+.brand {
+  font-family: 'Playfair Display', serif;
+  font-size: calc(100dvw / 15);
+  font-weight: 400;
+  margin: 0;
+  color: #1e156d;
+}
+@media (max-width: 990px){
+    .brand{
+        font-size: calc(100dvw / 2.5);
+    }
+}
+.ampersand {
+  color: #8578f5;
+}
