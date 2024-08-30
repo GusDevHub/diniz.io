@@ -19,6 +19,15 @@ body{
     color: #f0f0f0;
 }
 h1{
+  color: #f0f0f0;
+  font-size: 0.88rem;
+  line-height: 1.45rem;
+  font-family: 'Roboto Condensed', Avenir, sans-serif;
+  font-weight: normal;  
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  z-index:2;
 }
 .brand {
   font-family: 'Playfair Display', serif;
@@ -34,15 +43,4 @@ h1{
 }
 .ampersand {
   color: #8578f5;
-}
-h1{
-  color: #f0f0f0;
-  font-size: 0.88rem;
-  line-height: 1.45rem;
-  font-family: 'Roboto Condensed', Avenir, sans-serif;
-  font-weight: normal;  
-  letter-spacing: 0;
-  margin: 0;
-  padding: 0;
-  z-index:2;
 }
