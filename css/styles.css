@@ -11,12 +11,12 @@ html{
 }
 body{
     background-color: #5141d6;
-    display: flex;
-    color: #f0f0f0;
+    /*display: flex;
     justify-content: center;
     align-items: center;
     height: 90dvh;
-    font-size: 0.6rem;
+    font-size: 0.6rem;*/
+    color: #f0f0f0;
 }
 h1{
     font-family: 'Roboto Condensed', Avenir, sans-serif;
