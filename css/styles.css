@@ -33,10 +33,13 @@ h1{
   font-weight: 400;
   margin: 0;
   color: #1e156d;
+  display: block;
+  line-height: calc(100dvw / 35);
 }
 @media (max-width: 990px){
     .brand{
         font-size: calc(100dvw / 2.5);
+        line-height: calc(100dvw / 3.5);
     }
 }
 .ampersand {
